@@ -1,0 +1,6 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true, // 저장 버튼을 누를 때마다 import를 eslint 규칙에 맞춰서 자동 포맷
+    "source.fixAll.eslint": true // eslint 규칙에 맞지 않는 코드를 자동으로 수정
+  }
+}
