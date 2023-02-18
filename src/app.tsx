@@ -1,7 +1,11 @@
-import * as ReactDOM from "react-dom";
+import IntroPages from "./pages/IntroPages";
 
-function render() {
-  ReactDOM.render(<h2>재시작 안되?</h2>, document.body);
-}
+const App = () => {
+  return (
+    <div>
+      <IntroPages />
+    </div>
+  );
+};
 
-render();
+export default App;
